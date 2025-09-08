@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {padding: 0px; margin: 0px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+body {
+    font-family: 'Poppins', 'Inter', sans-serif;
+}
+header {
+    padding-left: 0px 120px 0px 120px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a8fffb;
+}
+header .logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: all 350ms ease-in 200ms;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+div.content{
+    display:flex;
+}
+
+main{
+	width: 80%;
+    border:1px solid white
+;
+}
+
+main .bloco-principal{
+    width: 100%;
+}
+
+main .noticia{
+    width: 80%;
+    display:flex;
+    padding: 30px;
+}
+
+main .noticia img{
+    width:200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+main .description h3 {
+    background: #7adfcf;
+    color: white;
+    padding: 5px;
+}
+
+main .description p {
+    margin-top: 20px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+main .description a {
+    background: #63d0ba;
+    color: white;
+    padding: 5px 15px;
+}
+
+
+
+main .grid-3 {
+    display: flex;
+    padding: 15px;
+}
+
+main .grid-3 .column {
+    margin: 10px;
+    border: 1px solid black;
+    width: 33%;
+}
+
+main .grid-3 .column img {
+    width: 100%
+}
+
+main .grid-3 .column h3{
+    text-transform: uppercase;
+    color: #91efe5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside {
+    width: 20%;
+    height: 0 auto;
+    background-color: #4cc0a4;
+}
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #a8fffb;
+}
+
+.root{
+    color: #a8fffb;
+    color: #91efe5;
+    color: #7adfcf;
+    color: #63d0ba;
+    color: #4cc0a4;
+
+
+}
